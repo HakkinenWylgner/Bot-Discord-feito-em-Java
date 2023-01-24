@@ -7,7 +7,7 @@ import net.dv8tion.jda.api.requests.GatewayIntent;
 import javax.security.auth.login.LoginException;
 public class DiscordBot {
     public static void main(String[] args) throws LoginException {
-        final String TOKEN = "MEU TOKEN";
+        final String TOKEN = "MTA2NjU1MzY4NDEwMTcwNTg0MA.GbAawP.iJ0s-ArrdvonTfTz9G0ulBWKSHuoKugmuKdNG4";
 
     // JDABuilder jdaBuilder = JDABuilder.createDefault(TOKEN); outro token
         JDABuilder jdaBuilder = JDABuilder.createDefault(TOKEN);
