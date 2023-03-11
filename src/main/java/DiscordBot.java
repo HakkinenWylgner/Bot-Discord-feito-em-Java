@@ -12,7 +12,7 @@ public class DiscordBot {
     // JDABuilder jdaBuilder = JDABuilder.createDefault(TOKEN); outro token
         JDABuilder jdaBuilder = JDABuilder.createDefault(TOKEN);
 
-        //jdaBuilder.enableIntents(GatewayIntent.MESSAGE_CONTENT); Forma fácil de importa o GatewayIntent
+        //jdaBuilder.enableIntents(GatewayIntent.MESSAGE_CONTENT); Importando gatway
         JDA jda = jdaBuilder
                 .enableIntents(GatewayIntent.MESSAGE_CONTENT, GatewayIntent.GUILD_MESSAGES)
                 .addEventListeners(new ReadyEventListener(), new MenssagerEventListener(), new InteractionEventListener())
